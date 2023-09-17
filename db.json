@@ -79,5 +79,47 @@
             "rating": 4.4,
             "expertise": "Hair Dryer"
         }
-    ]
+    ],
+    "doctor": {
+        "id": 1,
+        "name": "Dr. John Doe",
+        "image": "https://placeimg.com/100/100/people/9",
+        "speciality": "Cardiologist",
+        "location": "123 Health St, MedCity",
+        "patients_served": 2500,
+        "years_of_experience": 15,
+        "rating": 4.7,
+        "reviews": 325,
+        "availability": [
+            {
+                "date": "2023-09-17",
+                "time_slots": ["09:00 AM - 10:00 AM", "02:00 PM - 03:00 PM", "05:00 PM - 06:00 PM"]
+            },
+            {
+                "date": "2023-09-18",
+                "time_slots": ["10:00 AM - 11:00 AM", "03:00 PM - 04:00 PM"]
+            },
+            {
+                "date": "2023-09-19",
+                "time_slots": ["09:00 AM - 10:00 AM", "01:00 PM - 02:00 PM", "04:00 PM - 05:00 PM"]
+            },
+            {
+                "date": "2023-09-20",
+                "time_slots": ["11:00 AM - 12:00 PM", "03:00 PM - 04:00 PM"]
+            },
+            {
+                "date": "2023-09-21",
+                "time_slots": ["09:00 AM - 10:00 AM", "02:00 PM - 03:00 PM"]
+            },
+            {
+                "date": "2023-09-22",
+                "time_slots": ["10:00 AM - 11:00 AM", "04:00 PM - 05:00 PM"]
+            },
+            {
+                "date": "2023-09-23",
+                "time_slots": ["09:00 AM - 10:00 AM", "01:00 PM - 02:00 PM", "05:00 PM - 06:00 PM"]
+            }
+        ]
+    }
+
 }
